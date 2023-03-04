@@ -3,8 +3,6 @@ from hamcrest import assert_that, equal_to
 from module.bank import BankAccount
 
 # Red
-
-
 def test_create_bank_account():
     """Test that
     When I create an account
@@ -49,8 +47,6 @@ def test_deposits_in_separate_acc():
 
     assert_that(ba2.ammount, equal_to(200))
     assert_that(ba1.ammount, equal_to(100))
-
-
 
 
 
