@@ -1,6 +1,6 @@
 """Test Bank"""
-from module.bank import BankAccount
 from hamcrest import assert_that, equal_to
+from module.bank import BankAccount
 
 #Red
 """Test that 
